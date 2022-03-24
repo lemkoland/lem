@@ -67,6 +67,15 @@
           }
         }
       }
+          allWordPressCategory (sortBy: "name", order: ASC) {
+  edges {
+    node {
+      title
+      id
+      path
+    }
+  }
+}
     }
   </page-query>
 
